@@ -16,10 +16,8 @@ public class Task10 {
         }
         System.out.println("Итоговая матрица после обработки:");
         System.out.print("\n");
-        for (int z=0;z<line;z++) {
-            for (int i = 0; i < column; i++) {
-                System.out.print(matrix[z][i]*3 + " ");
-            }
+             for (int i = 0; i < column; i++) {
+                System.out.print(matrix[0][i]*3 + " ");
             System.out.print("\n");
         }
     }

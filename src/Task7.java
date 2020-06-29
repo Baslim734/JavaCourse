@@ -5,7 +5,7 @@ public class Task7 {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите переменную:");
         int number = in.nextInt();
-        int x = 10, y = 5, z = 15;
+        final int x = 10, y = 5, z = 15;
         if ((number == x) | (number == y) | (number == z)) {
             System.out.println("Данное значение имеется в константах");
         } else {
