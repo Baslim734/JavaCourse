@@ -4,18 +4,19 @@ public class Task13 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите первую строку:");
-        String Stroka = in.nextLine();
+        String stroka = in.nextLine();
         System.out.println("Введите вторую строку:");
-        String Stroka2 = in.nextLine();
+        String stroka2 = in.nextLine();
 
-        if(Stroka.length()>Stroka2.length()){
+        if(stroka.length()>stroka2.length())
+        {
             System.out.println("Самая длинная - первая строка:");
-            System.out.println(Stroka);
+            System.out.println(stroka);
         }
-        else if(Stroka.length()<Stroka2.length())
+        else if(stroka.length()<stroka2.length())
         {
             System.out.println("Самая длинная - вторая строка:");
-            System.out.println(Stroka2);
+            System.out.println(stroka2);
         }
         else
         {
